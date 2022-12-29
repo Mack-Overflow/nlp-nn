@@ -16,11 +16,7 @@
 # porter = PorterStemmer()
 # lancaster = LancasterStemmer()
 
-# stemmed = [(porter.stem(word), lancaster.stem(word)) for word in words_to_stem]
-import nltk
-# nltk.download('wordnet')
-from nltk.stem import WordNetLemmatizer
-words = ['tremble', 'trembling', 'trembler', 'trembled']
+# stemmed = [(porter.stem(word), lancaster.stem(word)) for word in words_to_stem]]
 
 # print(stemmed)
 # print(stop_words[:10])
